@@ -1,0 +1,262 @@
+.admin-main-section{
+    background-color: rgb(255, 0, 0);
+    width: 100VW;
+    height: 100vh;
+}
+
+.ad-nb-mn-stn{
+    width: 20vw;
+    height: 100vh;
+    background-color: #f3f3f3;
+}
+
+.ad-min-hd{
+    /* background-color: yellow; */
+    height: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ad-nb-lnk{
+    text-decoration: none;
+}
+
+.ad-nb-links{
+    /* background-color: yellow; */
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+
+.ad-nb-link{
+    text-decoration: none;
+    color: #000;
+    padding: 15px 100px 15px 0px;
+}
+
+.ad-nb-li{
+    padding: 15px 0px 15px 30px;
+    /* background-color: violet; */
+    margin: 10px 0px 0px 0px;
+}
+
+.ad-nb-li:hover{
+    background-color: #e9e9e9;
+}
+
+.ad-nb-lgo{
+    background-color: rgb(255, 0, 0);
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.ad-nb-lgo:hover{
+    background-color: #ff0000;
+}
+
+.ad-nb-lgo-btn{
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+
+/* team-reg */
+.ad-tm-reg-min-stc{
+    display: flex;
+}
+
+.ad-tm-reg-sb-stc{
+    width: 80vw;
+    height: 100vh;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ad-tm-reg-form{
+    width: 100%;
+    margin-top: 30px;
+    /* background-color: #fff; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ad-tm-reg-stb{
+    width: 300px;
+}
+
+
+/* team list */
+.ad-tm-lt-tm-sct{
+    display: flex;
+}
+
+.ad-tm-lt-tm-sb-sct{
+    width: 80vw;
+    height: 100vh;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+.ad-tm-lt-tm-sb-h{
+    width: 95%;
+    /* background-color: red; */
+    margin-left: 25px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.ad-tm-lt-tm-sb-li-div{
+    width: 1000px;
+    height: 500px;
+    background-color: #fff;
+    overflow: scroll;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.ad-tm-li-ed-btn{
+    background-color: rgb(0, 170, 0);
+    text-decoration: none;
+    padding: 8px 20px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.ad-tm-li-ed-btn:hover{
+    background-color: rgb(0, 99, 0);
+}
+
+.ad-tm-li-dlt-btn{
+    background-color: rgb(216, 0, 0);
+}
+
+
+/* addplayer */
+.ad-mn-add-plyr-sct{
+    display: flex;
+}
+
+.ad-mn-add-plyr-sb-sct{
+    /* background-color: yellow; */
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ad-mn-add-plyr-form{
+    margin-top: 20px;
+}
+
+/* plyrLiveUpdation */
+.ad-mn-lv-upd-sct{
+    display: flex;
+}
+
+.ad-mn-lv-upd-sb-sct{
+    /* background-color: yellow; */
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ad-mn-lv-form{
+    margin-top: 20px;
+}
+
+.ad-mn-lv-form-slt{
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 299px;
+    font-size: 14px;
+    text-align: center;
+    margin: 0px 0px 10px 0px;
+}
+
+.ad-mn-li-plyr-sct{
+    display: flex;
+}
+
+/* edit team data */
+.ed-tm-mn-sct{
+    width: 100vw;
+    height: 100vh;
+    background-color: yellow;
+}
+
+.ad-mn-add-ply-img{
+    width: 200px;
+    height: 220px;
+    background-color: red;
+    margin: 20px 0px 10px 0px;
+}
+
+
+/* admin wallet update page */
+
+.ad-mn-wlt-mn-sct{
+    display: flex;
+}
+
+.ad-mn-sb-ctr{
+    width: 80vw;
+    height: 100vh;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ad-mn-wlt-frm{
+    margin-top: 10px;
+}
+
+.ad-mn-wlt-slt{
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+
+.ad-mn-lv-frm-fnl-btn{
+    background-color: rgb(0, 49, 0);
+    margin-top: 8px;
+}
+
+.ad-mn-lv-frm-fnl-btn:hover{
+    background-color: rgb(0, 170, 0);
+}
