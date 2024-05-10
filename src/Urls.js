@@ -1,4 +1,4 @@
-const baseUrl = `http://localhost:8080`;
+const baseUrl = `https://auction-app-server-amzt.onrender.com`;
 
 export default baseUrl;
 
